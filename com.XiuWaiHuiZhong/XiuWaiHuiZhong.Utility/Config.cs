@@ -8,9 +8,9 @@ namespace XiuWaiHuiZhong.Utility
 {
     public class Config
     {
-        //public static string AppID
-        //{
-        //    get { return ConfigurationManager.AppSettings["AppID"]; }
-        //}
+        public static string AppID
+        {
+            get { return ConfigurationManager.AppSettings["AppID"]; }
+        }
     }
 }
