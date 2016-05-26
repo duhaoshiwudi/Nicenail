@@ -1,0 +1,11 @@
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.BLL\bin\Debug\XiuWaiHuiZhong.BLL.dll
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.BLL\bin\Debug\XiuWaiHuiZhong.BLL.pdb
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.BLL\obj\Debug\XiuWaiHuiZhong.BLL.csprojResolveAssemblyReference.cache
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.BLL\obj\Debug\XiuWaiHuiZhong.BLL.dll
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.BLL\obj\Debug\XiuWaiHuiZhong.BLL.pdb
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.BLL\bin\Debug\XiuWaiHuiZhong.DAL.dll
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.BLL\bin\Debug\XiuWaiHuiZhong.Model.dll
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.BLL\bin\Debug\XiuWaiHuiZhong.Utility.dll
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.BLL\bin\Debug\XiuWaiHuiZhong.DAL.pdb
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.BLL\bin\Debug\XiuWaiHuiZhong.Model.pdb
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.BLL\bin\Debug\XiuWaiHuiZhong.Utility.pdb

@@ -1,0 +1,7 @@
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.Model\bin\Debug\XiuWaiHuiZhong.Model.dll
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.Model\bin\Debug\XiuWaiHuiZhong.Model.pdb
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.Model\obj\Debug\XiuWaiHuiZhong.Model.dll
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.Model\obj\Debug\XiuWaiHuiZhong.Model.pdb
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.Model\bin\Debug\XiuWaiHuiZhong.Utility.dll
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.Model\bin\Debug\XiuWaiHuiZhong.Utility.pdb
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.Model\obj\Debug\XiuWaiHuiZhong.Model.csprojResolveAssemblyReference.cache

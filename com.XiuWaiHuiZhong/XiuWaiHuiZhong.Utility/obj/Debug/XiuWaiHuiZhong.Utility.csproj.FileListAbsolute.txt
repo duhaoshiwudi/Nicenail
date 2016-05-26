@@ -1,0 +1,4 @@
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.Utility\bin\Debug\XiuWaiHuiZhong.Utility.dll
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.Utility\bin\Debug\XiuWaiHuiZhong.Utility.pdb
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.Utility\obj\Debug\XiuWaiHuiZhong.Utility.dll
+D:\BaiduYunFolder\瞎搞\com.XiuWaiHuiZhong\XiuWaiHuiZhong.Utility\obj\Debug\XiuWaiHuiZhong.Utility.pdb
