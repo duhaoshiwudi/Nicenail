@@ -13,7 +13,7 @@ namespace XiuWaiHuiZhong.Utility
             get { return ConfigurationManager.AppSettings["AppID"]; }
         }
 
-        public static string AppID11
+        public static string AppIDdd
         {
             get { return ConfigurationManager.AppSettings["AppID"]; }
         }
