@@ -9,7 +9,7 @@ using XiuWaiHuiZhong.Utility;
 
 namespace XiuWaiHuiZhong.UI.Controllers.PC
 {
-    public class LoginController : Controller
+    public class LoginController : PCBaseController
     {
         //
         // GET: /Login/
@@ -44,11 +44,11 @@ namespace XiuWaiHuiZhong.UI.Controllers.PC
         public ActionResult Login(string UserName, string Pwd)
         {
             string result = "用户名或密码错误";
-            Model.BackgroundUserInfo userInfo = BLL.BackgroundUserBll.Login(UserName, Pwd, Request.UserHostAddress);
-            if (userInfo != null)
+            //Model.BackgroundUserInfo userInfo = BLL.BackgroundUserBll.Login(UserName, Pwd, Request.UserHostAddress);
+            if (true)
             {
                 // 写Cookies
-                Security.SetUserLoginCookies(userInfo.ID.ToString(), this.Response);
+                Security.SetUserLoginCookies("123", this.Response);
                 result = "ok";
             }
             return Content(result); ;

@@ -117,6 +117,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AddGoodsCallBackIn.cs" />
+    <Compile Include="Models\AddHuoDongInfoIn.cs" />
+    <Compile Include="Models\BackGroundUserInfoModelIn.cs" />
+    <Compile Include="Models\GetConsumerInfoListIn.cs" />
+    <Compile Include="Models\GetGoodsInfoIn.cs" />
+    <Compile Include="Models\GetUserInfoListIn.cs" />
+    <Compile Include="Models\HomeIndexPageModelOut.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -188,7 +195,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\WAP\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -223,6 +229,12 @@
     <Content Include="Views\Common\SideBar.cshtml" />
     <Content Include="Views\Common\TipsTool.cshtml" />
     <Content Include="Views\Common\TopBar.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Login\Login.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\IndexPage.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
