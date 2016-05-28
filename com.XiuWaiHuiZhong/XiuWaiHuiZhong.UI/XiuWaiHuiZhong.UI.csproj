@@ -112,7 +112,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\PC\LoginController.cs" />
+    <Compile Include="Controllers\PC\PCBaseController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -123,6 +124,58 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
+    <Content Include="Resources\amazeuiassets\css\admin.css" />
+    <Content Include="Resources\amazeuiassets\css\amazeui.css" />
+    <Content Include="Resources\amazeuiassets\css\amazeui.flat.css" />
+    <Content Include="Resources\amazeuiassets\css\amazeui.flat.min.css" />
+    <Content Include="Resources\amazeuiassets\css\amazeui.min.css" />
+    <Content Include="Resources\amazeuiassets\css\app.css" />
+    <Content Include="Resources\amazeuiassets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Resources\amazeuiassets\i\app-icon72x72%402x.png" />
+    <Content Include="Resources\amazeuiassets\i\examples\admin-chrome.png" />
+    <Content Include="Resources\amazeuiassets\i\examples\admin-firefox.png" />
+    <Content Include="Resources\amazeuiassets\i\examples\admin-ie.png" />
+    <Content Include="Resources\amazeuiassets\i\examples\admin-opera.png" />
+    <Content Include="Resources\amazeuiassets\i\examples\admin-safari.png" />
+    <Content Include="Resources\amazeuiassets\i\examples\adminPage.png" />
+    <Content Include="Resources\amazeuiassets\i\examples\blogPage.png" />
+    <Content Include="Resources\amazeuiassets\i\examples\landing.png" />
+    <Content Include="Resources\amazeuiassets\i\examples\landingPage.png" />
+    <Content Include="Resources\amazeuiassets\i\examples\loginPage.png" />
+    <Content Include="Resources\amazeuiassets\i\examples\sidebarPage.png" />
+    <Content Include="Resources\amazeuiassets\i\favicon.png" />
+    <Content Include="Resources\amazeuiassets\i\startup-640x1096.png" />
+    <Content Include="Resources\amazeuiassets\js\amazeui.ie8polyfill.js" />
+    <Content Include="Resources\amazeuiassets\js\amazeui.ie8polyfill.min.js" />
+    <Content Include="Resources\amazeuiassets\js\amazeui.js" />
+    <Content Include="Resources\amazeuiassets\js\amazeui.min.js" />
+    <Content Include="Resources\amazeuiassets\js\amazeui.widgets.helper.js" />
+    <Content Include="Resources\amazeuiassets\js\amazeui.widgets.helper.min.js" />
+    <Content Include="Resources\amazeuiassets\js\app.js" />
+    <Content Include="Resources\amazeuiassets\js\handlebars.min.js" />
+    <Content Include="Resources\amazeuiassets\js\jquery.min.js" />
+    <Content Include="Resources\css\amazeui.touch.min.css" />
+    <Content Include="Resources\css\LoginStyle.css" />
+    <Content Include="Resources\images\hand.png" />
+    <Content Include="Resources\images\left-handing.png" />
+    <Content Include="Resources\images\left_hand.png" />
+    <Content Include="Resources\images\password.png" />
+    <Content Include="Resources\images\right_hand.png" />
+    <Content Include="Resources\images\right_handing.png" />
+    <Content Include="Resources\images\tou.png" />
+    <Content Include="Resources\images\username.png" />
+    <Content Include="Resources\js\ajaxfileupload.js" />
+    <Content Include="Resources\js\app.min.js" />
+    <Content Include="Resources\js\jqPaginator.js" />
+    <Content Include="Resources\js\jquery-1.9.1.min.js" />
+    <Content Include="Resources\progressbar\css\default.css" />
+    <Content Include="Resources\progressbar\css\ProgressBarWars.css" />
+    <Content Include="Resources\progressbar\fonts\icomoon.svg" />
+    <Content Include="Resources\progressbar\img\darth.jpg" />
+    <Content Include="Resources\progressbar\img\Lasers.png" />
+    <Content Include="Resources\progressbar\img\starwars-logo.png" />
+    <Content Include="Resources\progressbar\js\jquery-2.1.1.min.js" />
+    <Content Include="Resources\progressbar\js\ProgressBarWars.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -134,6 +187,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\WAP\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +206,23 @@
       <Project>{dcc8105c-2730-4304-b1c1-a0f3ac9cdacf}</Project>
       <Name>XiuWaiHuiZhong.Utility</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\amazeuiassets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Resources\amazeuiassets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Resources\amazeuiassets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Resources\amazeuiassets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Resources\amazeuiassets\fonts\FontAwesome.otf" />
+    <Content Include="Resources\progressbar\fonts\icomoon.eot" />
+    <Content Include="Resources\progressbar\fonts\icomoon.ttf" />
+    <Content Include="Resources\progressbar\fonts\icomoon.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Common\FootPart.cshtml" />
+    <Content Include="Views\Common\SharePart.cshtml" />
+    <Content Include="Views\Common\SideBar.cshtml" />
+    <Content Include="Views\Common\TipsTool.cshtml" />
+    <Content Include="Views\Common\TopBar.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

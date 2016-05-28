@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 using XiuWaiHuiZhong.Utility;
 
-namespace XiuWaiHuiZhong.UI.Controllers
+namespace XiuWaiHuiZhong.UI.Controllers.PC
 {
-    public class BaseController : Controller
+    public class PCBaseController : Controller
     {
         protected override void OnAuthorization(AuthorizationContext filterContext)
         {
