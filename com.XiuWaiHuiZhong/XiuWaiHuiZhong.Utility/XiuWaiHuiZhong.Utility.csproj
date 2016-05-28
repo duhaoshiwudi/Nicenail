@@ -45,11 +45,18 @@
     <Compile Include="Config.cs" />
     <Compile Include="Converter.cs" />
     <Compile Include="FileUpToImg.cs" />
+    <Compile Include="Identity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Security.cs" />
     <Compile Include="SqlHelper.cs" />
     <Compile Include="StringExtension.cs" />
     <Compile Include="UploadImageFolderType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XiuWaiHuiZhong.Model\XiuWaiHuiZhong.Model.csproj">
+      <Project>{80ff7598-2753-443c-9c49-a1ef40f34279}</Project>
+      <Name>XiuWaiHuiZhong.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

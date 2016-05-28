@@ -39,13 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackgroundUserInfo.cs" />
+    <Compile Include="ConsumerInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\XiuWaiHuiZhong.Utility\XiuWaiHuiZhong.Utility.csproj">
-      <Project>{dcc8105c-2730-4304-b1c1-a0f3ac9cdacf}</Project>
-      <Name>XiuWaiHuiZhong.Utility</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
