@@ -27,8 +27,8 @@ namespace XiuWaiHuiZhong.UI.Controllers.PC
                 if (!string.IsNullOrEmpty(userId) && Security.Encrypt(userId + pairA).Equals(pairB))
                 {
                     // 获取当前用户信息
-                    Identity.LoginUserInfo = BLL.BackgroundUserBll.GetLoginUserInfo(Converter.TryToInt64(userId));
-                    if (Identity.LoginUserInfo != null)
+                    //Identity.LoginUserInfo = BLL.BackgroundUserBll.GetLoginUserInfo(Converter.TryToInt64(userId));
+                    if (true)
                     {
                         Security.SetUserLoginCookies(userId, this.Response);
                         return;

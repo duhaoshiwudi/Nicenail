@@ -9,7 +9,7 @@ using XiuWaiHuiZhong.Utility;
 
 namespace XiuWaiHuiZhong.UI.Controllers.PC
 {
-    public class LoginController : PCBaseController
+    public class LoginController : Controller
     {
         //
         // GET: /Login/
